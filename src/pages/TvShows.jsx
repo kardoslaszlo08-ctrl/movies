@@ -17,7 +17,7 @@ export const TvShows = () => {
 
   return (
     <div>
-      {tvshows ? <MediaList data={tvshows} type='tv shows'/> : <Loading/>} 
+      {tvshows ? <MediaList data={tvshows} type='tv'/> : <Loading/>} 
 </div>
   )
 }
