@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 import { getTrendings, img_300 } from '../utils'
 import { Loading } from '../components/Loading'
 import { MediaList } from '../components/MediaList'
-import { Pagination } from '../components/pagination'
+import { Pagination } from '../components/Pagination'
 
 export const Home = () => {
   const [trendings, setTrendings] = useState(null)

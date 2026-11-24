@@ -5,7 +5,7 @@ import { MediaList } from '../components/MediaList';
 import { Loading } from '../components/Loading';
 import { getSelectedMediaByCateg } from '../utils';
 import { Categories } from '../components/Categories';
-import { Pagination } from '../components/pagination';
+import { Pagination } from '../components/Pagination';
 
 export const Movies = () => {
   const [movies, setMovies] = useState(null)

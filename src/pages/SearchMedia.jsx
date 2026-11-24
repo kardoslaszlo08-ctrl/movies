@@ -4,7 +4,7 @@ import { Filter } from '../components/Filter'
 import { SearchBar } from '../components/SearchBar'
 import { getMedia } from '../utils'
 import { MediaList } from '../components/MediaList'
-import { Pagination } from '../components/pagination'
+import { Pagination } from '../components/Pagination'
 import { useEffect } from 'react'
 
 export const SearchMedia = () => {

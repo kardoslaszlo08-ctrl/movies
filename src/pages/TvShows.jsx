@@ -5,7 +5,7 @@ import { MediaList } from '../components/MediaList';
 import { Loading } from '../components/Loading';
 import { useState } from 'react';
 import { Categories } from '../components/Categories';
-import { Pagination } from '../components/pagination';
+import { Pagination } from '../components/Pagination';
 
 export const TvShows = () => {
   const [tvshows, setTvshows] = useState(null)
