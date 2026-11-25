@@ -7,6 +7,7 @@ import { Movies } from './pages/Movies'
 import { TvShows } from './pages/TvShows'
 import { SearchMedia } from './pages/SearchMedia'
 import { NotFound } from './pages/NotFound'
+import { Actors } from './pages/Actors'
 
 const myrouter=createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const myrouter=createBrowserRouter([
       {path:'/',element:<Home/>},
       {path:'/movies',element:<Movies/>},
       {path:'/tv',element:<TvShows/>},
+      {path:'/person',element:<Actors/>},
       {path:'/search',element:<SearchMedia/>},
       {path:'*',element:<NotFound/>},
     ]

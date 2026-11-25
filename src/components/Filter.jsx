@@ -13,6 +13,11 @@ export const Filter = ({type,setType}) => {
             onChange={(e)=>setType(e.target.value)}/>
           &nbsp;TV shows
         </label>
+        <label >
+        <input type="radio" value="person" className="radio radio-warning" checked={type=='person'}
+            onChange={(e)=>setType(e.target.value)}/>
+          &nbsp;Actors
+        </label>
     </div>
   )
 }
